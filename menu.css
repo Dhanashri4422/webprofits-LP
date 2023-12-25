@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+html,body{
+    width:100vw;
+    height: 100vh;
+}
+ul{
+    width: 100vw;
+    position: absolute;
+    top:10%;
+    font-size: 3vw;
+    list-style: none;
+    line-height: 10vh;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    border-bottom: 1px solid white;
+    color: royalblue;
+}
